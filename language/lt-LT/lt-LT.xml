@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile version="3.9" client="site">
-	<name>English (en-GB)</name>
+	<tag>lt-LT</tag>
+	<name>Lithuanian (Lithuania)</name>
 	<version>3.9.20</version>
-	<creationDate>July 2020</creationDate>
-	<author>Joomla! Project</author>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
+	<creationDate>October 2020</creationDate>
+	<author>Anita Juškevičienė</author>
+	<authorEmail></authorEmail>
+	<authorUrl>www.vu.lt</authorUrl>
 	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[en-GB site language]]></description>
+	<description><![CDATA[lt-LT site language]]></description>
 	<metadata>
-		<name>English (United Kingdom)</name>
-		<nativeName>English (United Kingdom)</nativeName>
-		<tag>en-GB</tag>
+		<name>Lithuanian (Lithuania)</name>
+		<nativeName>Lietuvių (Lietuva)</nativeName>
+		<tag>lt-LT</tag>
 		<rtl>0</rtl>
-		<locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, english, english-uk, uk, gbr, britain, england, great britain, uk, united kingdom, united-kingdom</locale>
-		<firstDay>0</firstDay>
+		<locale>lt_LT.utf8, lt_LT.UTF-8, lt_LT, lit_LT, lt, lithuanian, lit, lietuva, lietuvių</locale>
+		<firstDay>1</firstDay>
 		<weekEnd>0,6</weekEnd>
 		<calendar>gregorian</calendar>
 	</metadata>

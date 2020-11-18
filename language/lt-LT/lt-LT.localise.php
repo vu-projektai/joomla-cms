@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Lt_LTLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -30,13 +30,17 @@ abstract class En_GBLocalise
 		{
 			return array('0');
 		}
-		elseif ($count == 1)
+		elseif ($count % 10 == 1 && $count % 100 != 11)
 		{
-			return array('ONE', '1');
+			return array('1');
+		}
+		elseif ($count % 10 >= 2 && $count % 10 <= 9 && $count%100 <= 10 || $count%100 > 20)
+		{
+			return array('2');
 		}
 		else
 		{
-			return array('OTHER', 'MORE');
+			return array('MORE');
 		}
 	}
 
@@ -49,7 +53,7 @@ abstract class En_GBLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('and', 'in', 'on');
+		return array('ir', 'į', 'ant');
 	}
 
 	/**
